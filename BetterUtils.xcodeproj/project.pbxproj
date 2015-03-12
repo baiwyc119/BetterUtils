@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A5176FF1A2731E600EF4B67 /* BetterStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5176FD1A2731E600EF4B67 /* BetterStateMachine.h */; };
+		7A5177001A2731E600EF4B67 /* BetterStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5176FE1A2731E600EF4B67 /* BetterStateMachine.m */; };
+		7A5177041A27324B00EF4B67 /* BetterAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5177021A27324B00EF4B67 /* BetterAnimation.h */; };
+		7A5177051A27324B00EF4B67 /* BetterAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5177031A27324B00EF4B67 /* BetterAnimation.m */; };
+		7A5177091A27345B00EF4B67 /* BetterCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5177071A27345B00EF4B67 /* BetterCache.h */; };
+		7A51770A1A27345B00EF4B67 /* BetterCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5177081A27345B00EF4B67 /* BetterCache.m */; };
+		7A5177121A27389300EF4B67 /* BetterSkin.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5177101A27389300EF4B67 /* BetterSkin.h */; };
+		7A5177131A27389300EF4B67 /* BetterSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5177111A27389300EF4B67 /* BetterSkin.m */; };
+		7AD72C971A2704090049A29E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD72C961A2704090049A29E /* Foundation.framework */; };
+		7AD72C9C1A2704090049A29E /* BetterUtils-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 7AD72C9B1A2704090049A29E /* BetterUtils-Prefix.pch */; };
+		7AD72C9E1A2704090049A29E /* BetterUtils-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AD72C9D1A2704090049A29E /* BetterUtils-Info.plist */; };
+		7AD72CA01A2704090049A29E /* BetterUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD72C9F1A2704090049A29E /* BetterUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AD72CDE1A2708AB0049A29E /* NSString+EncryptLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD72CD31A2708AB0049A29E /* NSString+EncryptLog.h */; };
+		7AD72CDF1A2708AB0049A29E /* NSString+EncryptLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD72CD41A2708AB0049A29E /* NSString+EncryptLog.m */; };
+		7AD72CE01A2708AB0049A29E /* BetterLogFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD72CD61A2708AB0049A29E /* BetterLogFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AD72CE11A2708AB0049A29E /* BetterLogFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD72CD71A2708AB0049A29E /* BetterLogFileManager.m */; };
+		7AD72CE21A2708AB0049A29E /* BetterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD72CD81A2708AB0049A29E /* BetterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AD72CE31A2708AB0049A29E /* BetterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD72CD91A2708AB0049A29E /* BetterLogFormatter.m */; };
+		7AD72CE41A2708AB0049A29E /* BetterLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD72CDA1A2708AB0049A29E /* BetterLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AD72CE51A2708AB0049A29E /* BetterLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD72CDB1A2708AB0049A29E /* BetterLogger.m */; };
+		7AD72CE61A2708AB0049A29E /* TestUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD72CDC1A2708AB0049A29E /* TestUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AD72CE71A2708AB0049A29E /* TestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD72CDD1A2708AB0049A29E /* TestUtils.m */; };
+		8FABF2897C545CDA1E003739 /* libPods-BetterUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 708EF3F17FB21CEDC9CE91A5 /* libPods-BetterUtils.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7A5176C61A272AA100EF4B67 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A6F32208F699495DACE3F0A /* Pods-BetterUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterUtils.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-BetterUtils/Pods-BetterUtils.debug.xcconfig"; sourceTree = "<group>"; };
+		708EF3F17FB21CEDC9CE91A5 /* libPods-BetterUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BetterUtils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5176C81A272AA100EF4B67 /* libDummy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDummy.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5176FD1A2731E600EF4B67 /* BetterStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetterStateMachine.h; sourceTree = "<group>"; };
+		7A5176FE1A2731E600EF4B67 /* BetterStateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetterStateMachine.m; sourceTree = "<group>"; };
+		7A5177021A27324B00EF4B67 /* BetterAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetterAnimation.h; sourceTree = "<group>"; };
+		7A5177031A27324B00EF4B67 /* BetterAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetterAnimation.m; sourceTree = "<group>"; };
+		7A5177071A27345B00EF4B67 /* BetterCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetterCache.h; sourceTree = "<group>"; };
+		7A5177081A27345B00EF4B67 /* BetterCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetterCache.m; sourceTree = "<group>"; };
+		7A5177101A27389300EF4B67 /* BetterSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetterSkin.h; sourceTree = "<group>"; };
+		7A5177111A27389300EF4B67 /* BetterSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetterSkin.m; sourceTree = "<group>"; };
+		7AD72C931A2704090049A29E /* BetterUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = BetterUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD72C961A2704090049A29E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		7AD72C9A1A2704090049A29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AD72C9B1A2704090049A29E /* BetterUtils-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BetterUtils-Prefix.pch"; sourceTree = "<group>"; };
+		7AD72C9D1A2704090049A29E /* BetterUtils-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BetterUtils-Info.plist"; sourceTree = "<group>"; };
+		7AD72C9F1A2704090049A29E /* BetterUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BetterUtils.h; sourceTree = "<group>"; };
+		7AD72CD31A2708AB0049A29E /* NSString+EncryptLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EncryptLog.h"; sourceTree = "<group>"; };
+		7AD72CD41A2708AB0049A29E /* NSString+EncryptLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EncryptLog.m"; sourceTree = "<group>"; };
+		7AD72CD61A2708AB0049A29E /* BetterLogFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetterLogFileManager.h; sourceTree = "<group>"; };
+		7AD72CD71A2708AB0049A29E /* BetterLogFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetterLogFileManager.m; sourceTree = "<group>"; };
+		7AD72CD81A2708AB0049A29E /* BetterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetterLogFormatter.h; sourceTree = "<group>"; };
+		7AD72CD91A2708AB0049A29E /* BetterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetterLogFormatter.m; sourceTree = "<group>"; };
+		7AD72CDA1A2708AB0049A29E /* BetterLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetterLogger.h; sourceTree = "<group>"; };
+		7AD72CDB1A2708AB0049A29E /* BetterLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetterLogger.m; sourceTree = "<group>"; };
+		7AD72CDC1A2708AB0049A29E /* TestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUtils.h; sourceTree = "<group>"; };
+		7AD72CDD1A2708AB0049A29E /* TestUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUtils.m; sourceTree = "<group>"; };
+		A87C7E579EBFEA3D1385D192 /* Pods-BetterUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterUtils.release.xcconfig"; path = "../Pods/Target Support Files/Pods-BetterUtils/Pods-BetterUtils.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A5176C51A272AA100EF4B67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FABF2897C545CDA1E003739 /* libPods-BetterUtils.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AD72C8E1A2704090049A29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD72C971A2704090049A29E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A5176C91A272AA100EF4B67 /* Dummy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dummy;
+			sourceTree = "<group>";
+		};
+		7A5176FC1A2731C500EF4B67 /* StateMachine */ = {
+			isa = PBXGroup;
+			children = (
+				7A5176FD1A2731E600EF4B67 /* BetterStateMachine.h */,
+				7A5176FE1A2731E600EF4B67 /* BetterStateMachine.m */,
+			);
+			path = StateMachine;
+			sourceTree = "<group>";
+		};
+		7A5177011A27323700EF4B67 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				7A5177021A27324B00EF4B67 /* BetterAnimation.h */,
+				7A5177031A27324B00EF4B67 /* BetterAnimation.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		7A5177061A27344500EF4B67 /* Lru */ = {
+			isa = PBXGroup;
+			children = (
+				7A5177071A27345B00EF4B67 /* BetterCache.h */,
+				7A5177081A27345B00EF4B67 /* BetterCache.m */,
+			);
+			path = Lru;
+			sourceTree = "<group>";
+		};
+		7A51770F1A27388000EF4B67 /* Skin */ = {
+			isa = PBXGroup;
+			children = (
+				7A5177101A27389300EF4B67 /* BetterSkin.h */,
+				7A5177111A27389300EF4B67 /* BetterSkin.m */,
+			);
+			path = Skin;
+			sourceTree = "<group>";
+		};
+		7AD72C881A2704090049A29E = {
+			isa = PBXGroup;
+			children = (
+				7AD72C981A2704090049A29E /* BetterUtils */,
+				7A5176C91A272AA100EF4B67 /* Dummy */,
+				7AD72C951A2704090049A29E /* Frameworks */,
+				7AD72C941A2704090049A29E /* Products */,
+				D22CC7BB78FCA63358AE2BB1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7AD72C941A2704090049A29E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AD72C931A2704090049A29E /* BetterUtils.framework */,
+				7A5176C81A272AA100EF4B67 /* libDummy.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AD72C951A2704090049A29E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AD72C961A2704090049A29E /* Foundation.framework */,
+				708EF3F17FB21CEDC9CE91A5 /* libPods-BetterUtils.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AD72C981A2704090049A29E /* BetterUtils */ = {
+			isa = PBXGroup;
+			children = (
+				7A51770F1A27388000EF4B67 /* Skin */,
+				7A5177061A27344500EF4B67 /* Lru */,
+				7A5177011A27323700EF4B67 /* Animation */,
+				7A5176FC1A2731C500EF4B67 /* StateMachine */,
+				7AD72CD21A2708AB0049A29E /* Category */,
+				7AD72CD51A2708AB0049A29E /* Log */,
+				7AD72CDC1A2708AB0049A29E /* TestUtils.h */,
+				7AD72CDD1A2708AB0049A29E /* TestUtils.m */,
+				7AD72C9F1A2704090049A29E /* BetterUtils.h */,
+				7AD72C991A2704090049A29E /* Supporting Files */,
+			);
+			path = BetterUtils;
+			sourceTree = "<group>";
+		};
+		7AD72C991A2704090049A29E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AD72C9B1A2704090049A29E /* BetterUtils-Prefix.pch */,
+				7AD72C9D1A2704090049A29E /* BetterUtils-Info.plist */,
+				7AD72C9A1A2704090049A29E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AD72CD21A2708AB0049A29E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7AD72CD31A2708AB0049A29E /* NSString+EncryptLog.h */,
+				7AD72CD41A2708AB0049A29E /* NSString+EncryptLog.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7AD72CD51A2708AB0049A29E /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				7AD72CD61A2708AB0049A29E /* BetterLogFileManager.h */,
+				7AD72CD71A2708AB0049A29E /* BetterLogFileManager.m */,
+				7AD72CD81A2708AB0049A29E /* BetterLogFormatter.h */,
+				7AD72CD91A2708AB0049A29E /* BetterLogFormatter.m */,
+				7AD72CDA1A2708AB0049A29E /* BetterLogger.h */,
+				7AD72CDB1A2708AB0049A29E /* BetterLogger.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		D22CC7BB78FCA63358AE2BB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A6F32208F699495DACE3F0A /* Pods-BetterUtils.debug.xcconfig */,
+				A87C7E579EBFEA3D1385D192 /* Pods-BetterUtils.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7AD72C8F1A2704090049A29E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD72CA01A2704090049A29E /* BetterUtils.h in Headers */,
+				7AD72CE41A2708AB0049A29E /* BetterLogger.h in Headers */,
+				7A5177041A27324B00EF4B67 /* BetterAnimation.h in Headers */,
+				7A5177091A27345B00EF4B67 /* BetterCache.h in Headers */,
+				7A5177121A27389300EF4B67 /* BetterSkin.h in Headers */,
+				7AD72CE61A2708AB0049A29E /* TestUtils.h in Headers */,
+				7AD72CE01A2708AB0049A29E /* BetterLogFileManager.h in Headers */,
+				7AD72CE21A2708AB0049A29E /* BetterLogFormatter.h in Headers */,
+				7AD72CDE1A2708AB0049A29E /* NSString+EncryptLog.h in Headers */,
+				7A5176FF1A2731E600EF4B67 /* BetterStateMachine.h in Headers */,
+				7AD72C9C1A2704090049A29E /* BetterUtils-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7A5176C71A272AA100EF4B67 /* Dummy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A5176D91A272AA200EF4B67 /* Build configuration list for PBXNativeTarget "Dummy" */;
+			buildPhases = (
+				73978479DDB875F588AAB1FE /* Check Pods Manifest.lock */,
+				7A5176C41A272AA100EF4B67 /* Sources */,
+				7A5176C51A272AA100EF4B67 /* Frameworks */,
+				7A5176C61A272AA100EF4B67 /* CopyFiles */,
+				EF518078BFCC09091D3BE370 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dummy;
+			productName = Dummy;
+			productReference = 7A5176C81A272AA100EF4B67 /* libDummy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7AD72C921A2704090049A29E /* BetterUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AD72CA51A2704090049A29E /* Build configuration list for PBXNativeTarget "BetterUtils" */;
+			buildPhases = (
+				52EC4EA51F3378CC4BDBF373 /* Check Pods Manifest.lock */,
+				7AD72CCB1A2706BE0049A29E /* Run Script1 */,
+				7AD72C8D1A2704090049A29E /* Sources */,
+				7AD72C8E1A2704090049A29E /* Frameworks */,
+				7AD72C8F1A2704090049A29E /* Headers */,
+				7AD72C901A2704090049A29E /* Resources */,
+				7AD72CCC1A2706C00049A29E /* Run Script2 */,
+				7AD72CCD1A2706C20049A29E /* Run Script3 */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterUtils;
+			productName = BetterUtils;
+			productReference = 7AD72C931A2704090049A29E /* BetterUtils.framework */;
+			productType = "com.apple.product-type.framework.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AD72C891A2704090049A29E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = HH;
+				TargetAttributes = {
+					7A5176C71A272AA100EF4B67 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					7AD72C921A2704090049A29E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 7AD72C8C1A2704090049A29E /* Build configuration list for PBXProject "BetterUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7AD72C881A2704090049A29E;
+			productRefGroup = 7AD72C941A2704090049A29E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AD72C921A2704090049A29E /* BetterUtils */,
+				7A5176C71A272AA100EF4B67 /* Dummy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AD72C901A2704090049A29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD72C9E1A2704090049A29E /* BetterUtils-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52EC4EA51F3378CC4BDBF373 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73978479DDB875F588AAB1FE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7AD72CCB1A2706BE0049A29E /* Run Script1 */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script1";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash -x\n\n\"${SRCROOT}/../scripts/make_fwk_step1.sh\"\n\nbash +x";
+		};
+		7AD72CCC1A2706C00049A29E /* Run Script2 */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script2";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash -x\n\n\"${SRCROOT}/../scripts/make_fwk_step2.sh\"\n\nbash +x";
+		};
+		7AD72CCD1A2706C20049A29E /* Run Script3 */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script3";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash -x\n\n\"${SRCROOT}/../scripts/make_fwk_step3.sh\"\n\nbash +x";
+		};
+		EF518078BFCC09091D3BE370 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-BetterUtils/Pods-BetterUtils-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A5176C41A272AA100EF4B67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AD72C8D1A2704090049A29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5177131A27389300EF4B67 /* BetterSkin.m in Sources */,
+				7AD72CDF1A2708AB0049A29E /* NSString+EncryptLog.m in Sources */,
+				7AD72CE51A2708AB0049A29E /* BetterLogger.m in Sources */,
+				7A5177051A27324B00EF4B67 /* BetterAnimation.m in Sources */,
+				7A5177001A2731E600EF4B67 /* BetterStateMachine.m in Sources */,
+				7AD72CE11A2708AB0049A29E /* BetterLogFileManager.m in Sources */,
+				7A51770A1A27345B00EF4B67 /* BetterCache.m in Sources */,
+				7AD72CE31A2708AB0049A29E /* BetterLogFormatter.m in Sources */,
+				7AD72CE71A2708AB0049A29E /* TestUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7A5176DA1A272AA200EF4B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6F32208F699495DACE3F0A /* Pods-BetterUtils.debug.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A5176DB1A272AA200EF4B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A87C7E579EBFEA3D1385D192 /* Pods-BetterUtils.release.xcconfig */;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AD72CA31A2704090049A29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		7AD72CA41A2704090049A29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		7AD72CA61A2704090049A29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6F32208F699495DACE3F0A /* Pods-BetterUtils.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = BetterUtils/Info.plist;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		7AD72CA71A2704090049A29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A87C7E579EBFEA3D1385D192 /* Pods-BetterUtils.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = BetterUtils/Info.plist;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A5176D91A272AA200EF4B67 /* Build configuration list for PBXNativeTarget "Dummy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5176DA1A272AA200EF4B67 /* Debug */,
+				7A5176DB1A272AA200EF4B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AD72C8C1A2704090049A29E /* Build configuration list for PBXProject "BetterUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AD72CA31A2704090049A29E /* Debug */,
+				7AD72CA41A2704090049A29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AD72CA51A2704090049A29E /* Build configuration list for PBXNativeTarget "BetterUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AD72CA61A2704090049A29E /* Debug */,
+				7AD72CA71A2704090049A29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AD72C891A2704090049A29E /* Project object */;
+}
